@@ -36,7 +36,6 @@ module.exports = {
       description,
       price,
       discount,
-      status,
       author,
       barcode,
       category,
