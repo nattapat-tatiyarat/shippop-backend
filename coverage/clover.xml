@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655329027497" clover="3.2.0">
-  <project timestamp="1655329027497" name="All files">
-    <metrics statements="198" coveredstatements="168" conditionals="18" coveredconditionals="8" methods="28" coveredmethods="27" elements="244" coveredelements="203" complexity="0" loc="198" ncloc="198" packages="7" files="15" classes="15"/>
+<coverage generated="1655408415167" clover="3.2.0">
+  <project timestamp="1655408415167" name="All files">
+    <metrics statements="201" coveredstatements="169" conditionals="22" coveredconditionals="11" methods="28" coveredmethods="27" elements="251" coveredelements="207" complexity="0" loc="201" ncloc="201" packages="7" files="15" classes="15"/>
     <package name="backend">
       <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="app.js" path="C:\Users\User\Desktop\Shippop\backend\app.js">
+      <file name="app.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\app.js">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -22,28 +22,28 @@
     </package>
     <package name="backend.configs">
       <metrics statements="11" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <file name="connect.js" path="C:\Users\User\Desktop\Shippop\backend\configs\connect.js">
+      <file name="connect.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\configs\connect.js">
         <metrics statements="11" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="11" count="12" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="12" count="12" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="12" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
+        <line num="13" count="12" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
       </file>
     </package>
     <package name="backend.controllers">
       <metrics statements="54" coveredstatements="42" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
-      <file name="index.js" path="C:\Users\User\Desktop\Shippop\backend\controllers\index.js">
+      <file name="index.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\controllers\index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="product.controller.js" path="C:\Users\User\Desktop\Shippop\backend\controllers\product.controller.js">
+      <file name="product.controller.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\controllers\product.controller.js">
         <metrics statements="38" coveredstatements="29" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -84,7 +84,7 @@
         <line num="80" count="7" type="stmt"/>
         <line num="82" count="0" type="stmt"/>
       </file>
-      <file name="user.controller.js" path="C:\Users\User\Desktop\Shippop\backend\controllers\user.controller.js">
+      <file name="user.controller.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\controllers\user.controller.js">
         <metrics statements="15" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -105,18 +105,18 @@
     </package>
     <package name="backend.models">
       <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="index.js" path="C:\Users\User\Desktop\Shippop\backend\models\index.js">
+      <file name="index.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\models\index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="product.model.js" path="C:\Users\User\Desktop\Shippop\backend\models\product.model.js">
+      <file name="product.model.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\models\product.model.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
         <line num="53" count="2" type="stmt"/>
       </file>
-      <file name="user.model.js" path="C:\Users\User\Desktop\Shippop\backend\models\user.model.js">
+      <file name="user.model.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\models\user.model.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -125,13 +125,13 @@
     </package>
     <package name="backend.routes">
       <metrics statements="23" coveredstatements="23" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.js" path="C:\Users\User\Desktop\Shippop\backend\routes\index.js">
+      <file name="index.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\routes\index.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="12" type="stmt"/>
         <line num="3" count="12" type="stmt"/>
       </file>
-      <file name="product.route.js" path="C:\Users\User\Desktop\Shippop\backend\routes\product.route.js">
+      <file name="product.route.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\routes\product.route.js">
         <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -147,7 +147,7 @@
         <line num="13" count="2" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
       </file>
-      <file name="user.route.js" path="C:\Users\User\Desktop\Shippop\backend\routes\user.route.js">
+      <file name="user.route.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\routes\user.route.js">
         <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>
@@ -159,13 +159,13 @@
       </file>
     </package>
     <package name="backend.services">
-      <metrics statements="80" coveredstatements="66" conditionals="18" coveredconditionals="8" methods="12" coveredmethods="12"/>
-      <file name="index.js" path="C:\Users\User\Desktop\Shippop\backend\services\index.js">
+      <metrics statements="83" coveredstatements="67" conditionals="22" coveredconditionals="11" methods="12" coveredmethods="12"/>
+      <file name="index.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\services\index.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="2" type="stmt"/>
       </file>
-      <file name="product.service.js" path="C:\Users\User\Desktop\Shippop\backend\services\product.service.js">
-        <metrics statements="67" coveredstatements="53" conditionals="18" coveredconditionals="8" methods="9" coveredmethods="9"/>
+      <file name="product.service.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\services\product.service.js">
+        <metrics statements="70" coveredstatements="54" conditionals="22" coveredconditionals="11" methods="9" coveredmethods="9"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -202,39 +202,42 @@
         <line num="98" count="0" type="stmt"/>
         <line num="103" count="1" type="stmt"/>
         <line num="104" count="1" type="stmt"/>
-        <line num="106" count="1" type="stmt"/>
-        <line num="108" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="109" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="110" count="1" type="stmt"/>
-        <line num="114" count="0" type="stmt"/>
-        <line num="115" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="116" count="0" type="stmt"/>
+        <line num="106" count="1" type="cond" truecount="3" falsecount="1"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="112" count="1" type="stmt"/>
+        <line num="114" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="115" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="116" count="1" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="121" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="122" count="0" type="stmt"/>
-        <line num="123" count="0" type="stmt"/>
-        <line num="124" count="0" type="stmt"/>
-        <line num="126" count="0" type="stmt"/>
         <line num="128" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
         <line num="132" count="0" type="stmt"/>
-        <line num="138" count="1" type="stmt"/>
-        <line num="139" count="1" type="stmt"/>
-        <line num="140" count="1" type="stmt"/>
-        <line num="142" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="143" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="144" count="0" type="stmt"/>
-        <line num="149" count="1" type="stmt"/>
-        <line num="150" count="1" type="stmt"/>
-        <line num="152" count="1" type="stmt"/>
-        <line num="154" count="1" type="stmt"/>
-        <line num="160" count="7" type="stmt"/>
-        <line num="162" count="7" type="stmt"/>
-        <line num="164" count="7" type="cond" truecount="1" falsecount="1"/>
-        <line num="165" count="7" type="cond" truecount="1" falsecount="1"/>
-        <line num="166" count="7" type="stmt"/>
-        <line num="168" count="7" type="stmt"/>
-        <line num="172" count="0" type="stmt"/>
-        <line num="177" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+        <line num="144" count="1" type="stmt"/>
+        <line num="145" count="1" type="stmt"/>
+        <line num="146" count="1" type="stmt"/>
+        <line num="148" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="149" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="155" count="1" type="stmt"/>
+        <line num="156" count="1" type="stmt"/>
+        <line num="158" count="1" type="stmt"/>
+        <line num="160" count="1" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="170" count="7" type="stmt"/>
+        <line num="172" count="7" type="stmt"/>
+        <line num="174" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="175" count="7" type="cond" truecount="1" falsecount="1"/>
+        <line num="176" count="7" type="stmt"/>
+        <line num="178" count="7" type="stmt"/>
+        <line num="182" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
       </file>
-      <file name="user.service.js" path="C:\Users\User\Desktop\Shippop\backend\services\user.service.js">
+      <file name="user.service.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\services\user.service.js">
         <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="1" count="2" type="stmt"/>
         <line num="3" count="2" type="stmt"/>
@@ -252,7 +255,7 @@
     </package>
     <package name="backend.test">
       <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="config.js" path="C:\Users\User\Desktop\Shippop\backend\test\config.js">
+      <file name="config.js" path="C:\Users\User\Desktop\Shippop\Question3\backend\test\config.js">
         <metrics statements="10" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="1" count="2" type="stmt"/>
         <line num="2" count="2" type="stmt"/>

@@ -2,6 +2,8 @@ const mongoose = require("mongoose");
 const supertest = require("supertest");
 const { config, app } = require("./config");
 
+jest.setTimeout(30000);
+
 beforeEach(async () => {
   await config();
 });
