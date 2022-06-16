@@ -1,0 +1,24 @@
+{
+  "name": "shippop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=development",
+    "test": "jest --watchAll --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "config": "^3.3.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "jest": "^28.1.1",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16",
+    "supertest": "^6.2.3"
+  }
+}
