@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "(node index.js), NODE_ENV=development",
     "test": "jest --watchAll --coverage"
   },
   "author": "",
