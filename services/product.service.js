@@ -73,7 +73,7 @@ module.exports = {
     //   product: product,
     // };
 
-    return message;
+    return data;
   },
   edit: async (data) => {
     const { _id, name, description, discount, user_id } = data;
