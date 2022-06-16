@@ -9,7 +9,7 @@ router.get("/", async (req, res) => {
   try {
     res.json({
       status: 200,
-      message: "HELLO PEAK",
+      message: "HELLO PEAKAAA",
     });
   } catch (err) {
     console.error(err);
