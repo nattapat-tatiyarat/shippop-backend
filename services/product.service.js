@@ -36,6 +36,7 @@ module.exports = {
       description,
       price,
       discount,
+      status,
       author,
       barcode,
       category,
@@ -47,30 +48,32 @@ module.exports = {
     const updatedAt = new Date();
     const user_voted = [];
 
-    const product = new ProductModel({
-      user_id,
-      name,
-      description,
-      price,
-      discount,
-      status,
-      score,
-      author,
-      barcode,
-      category,
-      publisher,
-      type,
-      createdAt,
-      updatedAt,
-      user_voted,
-    });
+    // const product = new ProductModel({
+    //   user_id,
+    //   name,
+    //   description,
+    //   price,
+    //   discount,
+    //   status,
+    //   score,
+    //   author,
+    //   barcode,
+    //   category,
+    //   publisher,
+    //   type,
+    //   createdAt,
+    //   updatedAt,
+    //   user_voted,
+    // });
 
-    await product.save();
+    // await product.save();
 
-    return {
-      message: "CREATED",
-      product: product,
-    };
+    // return {
+    //   message: "CREATED",
+    //   product: product,
+    // };
+
+    return message;
   },
   edit: async (data) => {
     const { _id, name, description, discount, user_id } = data;
