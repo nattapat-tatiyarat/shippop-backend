@@ -2,8 +2,10 @@ const mongoose = require("mongoose");
 require("dotenv").config();
 
 // mongodb+srv://Peakntp:*****@shippop.9nzie.mongodb.net/test
-const MONGOOSE_URL = `mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/${process.env.MONGO_DB}`;
+// const MONGOOSE_URL = `mongodb://${process.env.MONGO_HOST}:${process.env.MONGO_PORT}/${process.env.MONGO_DB}`;
 // const MONGOOSE_URL = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASS}@shippop.9nzie.mongodb.net/${process.env.MONGO_DB}`;
+const MONGOOSE_URL = `mongodb://localhost:27017/Shippop`;
+
 const MONGOOSE_OPTIONS = {
   useNewUrlParser: true,
 };
